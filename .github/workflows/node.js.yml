@@ -48,6 +48,7 @@ jobs:
           cd website
           echo y | cp $GITHUB_WORKSPACE/hugo.toml .
           sed -i "s#京ICP备17074266号-3#鲁ICP备19009036号-1#"                                                           layouts/partials/footer.html
+          sed -i "s#/releases#/releases/#"                                                                            layouts/partials/navbar-version-selector.html
           sed -i "s#https://www.googletagmanager.com/gtag/js#/gtag.js#"                                               layouts/partials/head.html
           sed -i "s#https://code.jquery.com/jquery-3.6.0.min.js#/jquery-3.6.0.min.js#"                                layouts/partials/head.html
           sed -i "s#https://cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css#/horizontal-slim-10_7.css#"   layouts/partials/hooks/head-end.html
