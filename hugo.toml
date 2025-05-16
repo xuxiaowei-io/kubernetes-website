@@ -175,38 +175,33 @@ js = [
 ]
 
 [[params.versions]]
-fullversion = "v1.33.0"
 version = "v1.33"
 githubbranch = "v1.33.0"
 docsbranch = "main"
 url = "https://kubernetes.xuxiaowei.com.cn"
 
 [[params.versions]]
-fullversion = "v1.32.0"
 version = "v1.32"
-githubbranch = "v1.32.0"
-docsbranch = "main"
+githubbranch = "v1.32.4"
+docsbranch = "release-1.32"
 url = "https://kubernetes-v1-32.xuxiaowei.com.cn"
 
 [[params.versions]]
-fullversion = "v1.31.0"
 version = "v1.31"
-githubbranch = "v1.31.0"
-docsbranch = "main"
+githubbranch = "v1.31.8"
+docsbranch = "release-1.31"
 url = "https://kubernetes-v1-31.xuxiaowei.com.cn"
 
 [[params.versions]]
-fullversion = "v1.30.0"
 version = "v1.30"
-githubbranch = "v1.30.0"
-docsbranch = "main"
+githubbranch = "v1.30.12"
+docsbranch = "release-1.30"
 url = "https://kubernetes-v1-30.xuxiaowei.com.cn"
 
 [[params.versions]]
-fullversion = "v1.29.0"
 version = "v1.29"
-githubbranch = "v1.29.0"
-docsbranch = "main"
+githubbranch = "v1.29.14"
+docsbranch = "release-1.29"
 url = "https://kubernetes-v1-29.xuxiaowei.com.cn"
 
 [[params.versions]]
@@ -337,11 +332,15 @@ no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY
   url = "https://www.linkedin.com/company/kubernetes/"
   icon = "fa-brands fa-linkedin"
 
-#[[params.links.user]]
-#	name_key = "community_x_name"
-#	url = "https://twitter.com/kubernetesio"
-#	icon = "fa-brands fa-twitter"
-# Replace with fa-x-twitter once available
+[[params.links.user]]
+	name_key = "community_bluesky_name"
+	url = "https://bsky.app/profile/kubernetes.io"
+	icon = "fa-brands fa-bluesky"
+
+[[params.links.user]]
+	name_key = "community_x_name"
+	url = "https://x.com/kubernetesio"
+	icon = "fa-brands fa-x-twitter"
 
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
 [[params.links.developer]]
